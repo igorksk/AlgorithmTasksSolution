@@ -1,9 +1,9 @@
 using PrimeNumberSeries;
 
-namespace PrimeNumberTests
+namespace Tests
 {
     [TestClass]
-    public class Tests
+    public class PrimeNumberSeriesTests
     {
         [TestMethod]
         public void CreatePrimeNumbersSequence_ReturnsCorrectPrimesForN()

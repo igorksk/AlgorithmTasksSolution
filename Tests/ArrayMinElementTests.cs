@@ -1,9 +1,9 @@
 using ArrayMinElement;
 
-namespace ArrayTests
+namespace Tests
 {
     [TestClass]
-    public class ArrayTests
+    public class ArrayMinElementTests
     {
         [TestMethod]
         public void TestGetMinElement()
