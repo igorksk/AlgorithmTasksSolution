@@ -11,7 +11,7 @@
 
             int[] letters = new int[128];
 
-            foreach(char c in s1)
+            foreach (char c in s1)
             {
                 letters[c]++;
             }

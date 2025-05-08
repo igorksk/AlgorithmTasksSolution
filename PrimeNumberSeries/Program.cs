@@ -10,7 +10,7 @@ namespace PrimeNumberSeries
             Console.Write("N = ");
             var n = Convert.ToUInt32(Console.ReadLine());
             Console.WriteLine("{0} first prime numbers", n);
-            
+
             var primeNumbers = PrimeNumbersHelpers.CreatePrimeNumbersSequence(n);
 
             if (primeNumbers.Count != 0)

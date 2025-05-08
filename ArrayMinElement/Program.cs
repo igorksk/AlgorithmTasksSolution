@@ -21,7 +21,7 @@ namespace ArrayMinElement
                     }
 
                     int min = Helpers.GetMinElement(numbers);
-                    
+
                     Console.WriteLine("The minimum is: {0}", min);
                 }
                 catch (Exception ex)

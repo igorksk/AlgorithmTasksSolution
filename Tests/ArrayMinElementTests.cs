@@ -9,7 +9,7 @@ namespace Tests
         public void TestGetMinElement()
         {
             // Arrange
-            int[] numbers = [45, 67, 8, 11, 34] ;
+            int[] numbers = [45, 67, 8, 11, 34];
 
             // Act
             var min = Helpers.GetMinElement(numbers);

@@ -28,7 +28,7 @@ namespace Tests
             primes = PrimeNumbersHelpers.CreatePrimeNumbersSequence(n);
 
             // Assert
-            CollectionAssert.AreEqual(new List<uint> {}, primes);
+            CollectionAssert.AreEqual(new List<uint> { }, primes);
         }
 
         [TestMethod]

@@ -19,7 +19,7 @@ namespace FizzBuzz
                 {
                     Console.Write("FizzBuzz" + " ");
                 }
-                
+
                 // Number divisible by 3,
                 // print 'Fizz' in place
                 // of the number
@@ -27,7 +27,7 @@ namespace FizzBuzz
                 {
                     Console.Write("Fizz" + " ");
                 }
-                  
+
                 // Number divisible by
                 // 5, print 'Buzz'
                 // in place of the number
@@ -40,7 +40,7 @@ namespace FizzBuzz
                 else
                 {
                     Console.Write(i + " ");
-                }    
+                }
             }
 
             Console.ReadLine();
