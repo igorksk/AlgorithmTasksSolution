@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberSeries", "PrimeN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{61B36A70-CA7B-4138-8307-A03274926DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDuplicates", "StringDuplicates\StringDuplicates.csproj", "{4D19785B-7042-567E-C6E5-4F736A41B1DA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{61B36A70-CA7B-4138-8307-A03274926DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B36A70-CA7B-4138-8307-A03274926DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B36A70-CA7B-4138-8307-A03274926DBA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D19785B-7042-567E-C6E5-4F736A41B1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D19785B-7042-567E-C6E5-4F736A41B1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D19785B-7042-567E-C6E5-4F736A41B1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D19785B-7042-567E-C6E5-4F736A41B1DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
