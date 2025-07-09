@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "Fibonacc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{219CE0B7-1C81-6150-BBFB-ADEA880ED01E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeString", "PalindromeString\PalindromeString.csproj", "{147735A4-9DDE-8490-4F21-709C5215AD4D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberSeries", "PrimeNumberSeries\PrimeNumberSeries.csproj", "{7DD8F034-037F-93FE-CADD-DCF24B7B491D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{61B36A70-CA7B-4138-8307-A03274926DBA}"
@@ -33,10 +31,6 @@ Global
 		{219CE0B7-1C81-6150-BBFB-ADEA880ED01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219CE0B7-1C81-6150-BBFB-ADEA880ED01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219CE0B7-1C81-6150-BBFB-ADEA880ED01E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{147735A4-9DDE-8490-4F21-709C5215AD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{147735A4-9DDE-8490-4F21-709C5215AD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{147735A4-9DDE-8490-4F21-709C5215AD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{147735A4-9DDE-8490-4F21-709C5215AD4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7DD8F034-037F-93FE-CADD-DCF24B7B491D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7DD8F034-037F-93FE-CADD-DCF24B7B491D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD8F034-037F-93FE-CADD-DCF24B7B491D}.Release|Any CPU.ActiveCfg = Release|Any CPU
