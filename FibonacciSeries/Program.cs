@@ -4,18 +4,28 @@ namespace FibonacciSeries
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            static int Fibonacci(int n)
+            static long Fibonacci(int n)
             {
-                if (n == 0 || n == 1) return n;
+                ArgumentOutOfRangeException.ThrowIfNegative(n);
 
-                return Fibonacci(n - 1) + Fibonacci(n - 2);
+                if (n == 0) return 0;
+
+                long a = 0, b = 1;
+                for (int i = 1; i < n; i++)
+                {
+                    long tmp = b;
+                    b += a;
+                    a = tmp;
+                }
+
+                return b;
             }
 
             for (int n = 0; n < 10; n++)
             {
-                int fib = Fibonacci(n);
+                long fib = Fibonacci(n);
 
                 Console.WriteLine($"{n + 1} Fibonacci number = {fib}");
             }

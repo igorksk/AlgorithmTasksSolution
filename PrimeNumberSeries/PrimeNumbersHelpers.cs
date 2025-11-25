@@ -1,16 +1,18 @@
-﻿
+﻿using System;
 using System.Collections.Generic;
 
 namespace PrimeNumberSeries
 {
-    public class PrimeNumbersHelpers
+    public static class PrimeNumbersHelpers
     {
         public static List<uint> CreatePrimeNumbersSequence(uint n)
         {
             var primeNumbers = new List<uint>();
 
+            if (n == 0) return primeNumbers;
+
             var count = 0u;
-            var i = 0u;
+            var i = 2u; // start from 2, the first prime
             while (count < n)
             {
                 if (IsPrimeNumber(i))
@@ -26,25 +28,21 @@ namespace PrimeNumberSeries
 
         public static bool IsPrimeNumber(uint n)
         {
-            var result = true;
+            if (n < 2) return false;
+            if (n == 2) return true;
+            if (n % 2 == 0) return false;
 
-            if (n > 1)
+            var boundary = (uint)Math.Floor(Math.Sqrt(n));
+
+            for (var i = 3u; i <= boundary; i += 2u)
             {
-                for (var i = 2u; i < n; i++)
+                if (n % i == 0)
                 {
-                    if (n % i == 0)
-                    {
-                        result = false;
-                        break;
-                    }
+                    return false;
                 }
             }
-            else
-            {
-                result = false;
-            }
 
-            return result;
+            return true;
         }
     }
 }
